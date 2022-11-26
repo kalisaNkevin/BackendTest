@@ -1,7 +1,7 @@
 {
   "name": "my-top100-movies",
   "version": "0.0.1",
-  "description": "Should allow users to add a movie, list and rank their movie selections",
+  "description": "Should allow users to add yara movie, list and rank their movie selections",
   "author": "Kalisa Ngabo Kevin",
   "private": true,
   "license": "MIT Licenses",
