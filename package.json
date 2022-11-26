@@ -1,10 +1,10 @@
 {
   "name": "my-top100-movies",
   "version": "0.0.1",
-  "description": "",
-  "author": "Chris",
+  "description": "Should allow users to add a movie, list and rank their movie selections",
+  "author": "Kalisa Ngabo Kevin",
   "private": true,
-  "license": "MIT License",
+  "license": "MIT Licenses",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
