@@ -1,5 +1,6 @@
 {
-  "name": "my-top100-movies",
+  "name": "BackendTest",
+  "packageManager": "yarn@3.2.2",
   "version": "0.0.1",
   "description": "Should allow users to add yara movie, list and rank their movie selections",
   "author": "Kalisa Ngabo Kevin",
