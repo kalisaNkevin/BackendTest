@@ -6,7 +6,7 @@
   "private": true,
   "license": "MIT Licenses",
   "scripts": {
-    "prebuild": "rimraf dist",
+   
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "yarn typeorm:run && nest start",
