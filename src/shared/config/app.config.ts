@@ -1,5 +1,4 @@
-import { INestApplication, UnauthorizedException } from '@nestjs/common';
-import { CorsOptions } from '@nestjs/common/interfaces/external/cors-options.interface';
+import { INestApplication } from '@nestjs/common';
 import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 import AppConfig from '../interfaces/app-config.interface';
 import testingTypeOrmConfig from './test.typeorm.config';

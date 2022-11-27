@@ -3,7 +3,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { paginate } from 'nestjs-typeorm-paginate';
 import { FilterOptions } from '../shared/interfaces/filter-options';
 import { IPagination } from './dto/paginate.dto';
-import { Brackets, Repository } from 'typeorm';
+import { Repository } from 'typeorm';
 import { CreateMovieDto } from './dto/create-movie.dto';
 import { UpdateMovieDto } from './dto/update-movie.dto';
 import { Movie } from './entities/movie.entity';
@@ -49,7 +49,9 @@ export class MovieService {
   }
 
   async findOne(id: number): Promise<Movie> {
-    const result = await this.movieRepo.findOne(id);
+    const result = await this.movieRepo.findOne({
+      where: { id },
+    });
     if (!result) throw new NotFoundException('Movie does not exist');
     return result;
   }
