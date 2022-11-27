@@ -25,7 +25,7 @@ const typeOrmConfig: TypeOrmModuleOptions = {
   autoLoadEntities: false,
   migrationsTableName: 'migrations',
   migrations: ['dist/db/migrations/*{.ts,.js}'],
-  // cli: { migrationsDir: 'src/db/migrations' },
+  cli: { migrationsDir: 'src/db/migrations' },
   migrationsRun: !isRunningInDevelopment(),
   // ssl: {
   //   rejectUnauthorized: false,
