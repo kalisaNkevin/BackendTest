@@ -56,3 +56,6 @@ localhost:3000/docs/swagger-ui/#/
 ## Documentation
 
 Live - https://tmvdb.herokuapp.com/docs/swagger-ui/#/
+
+## Author
+**[Kalisa Ngabo Kevin](https://kalisangabokevin.vercel.app/)**
